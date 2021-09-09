@@ -4,6 +4,7 @@ with:
   prefetch: 10
   port_expose: $JINA_PORT
   workspace: $JINA_WORKSPACE
+  cors: true
 pods:
   - name: loader                                  # Again, we start two paths in the flow - here we start the image path
     uses: ImageReader
